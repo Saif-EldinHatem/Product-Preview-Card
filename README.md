@@ -1,1 +1,1 @@
-# Product-Preview-Card
+Frontend Mentor - Product preview card component solution
