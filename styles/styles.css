@@ -1,0 +1,100 @@
+body{
+  background-color: hsl(30, 38%, 92%);
+}
+
+p{
+  font-size:1.1875rem;
+  line-height:1.5;
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+}
+
+h2{
+  color: white;
+  display:inline-block;
+}
+
+h4{
+  font-family: Montserrat;
+  font-weight:normal;
+  color: hsl(228, 12%, 48%);
+}
+
+.container{
+  width: 50rem;
+  height: 37.5rem;
+  margin: 14rem auto;
+}
+
+.left{
+  width:25rem;
+  height:37.5rem;
+  display:inline-block;
+  float:left;
+}
+
+.img{
+  width:100%;
+  display:inline-block;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+}
+
+.right{
+  background-color: hsl(0, 0%, 100%);
+  width:20rem;
+  height:33.75rem;
+  display:inline-block;
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+  padding: 1.875rem 2.5rem;
+}
+
+.product-name{
+  font-family: Fraunces;
+  font-size:2.6875rem;
+  line-height:1;
+  color: hsl(212, 21%, 14%);
+}
+
+.description{
+  margin-bottom: 0;
+}
+
+.after-price{
+  color:hsl(158, 36%, 37%);
+  font-size:2.6875rem;
+  font-weight:bolder;
+  font-family: Fraunces;
+  display:inline-block;
+}
+
+.pre-price{
+  display: inline-block;
+  text-decoration: line-through;
+  position:relative;
+  bottom:0.625rem;
+  left: 1.125rem;
+}
+
+.btn{
+  background-color:hsl(158, 36%, 37%);
+  display:block;
+  margin: 10px auto 0;
+  font-family: montserrat;
+  text-decoration: none;
+  text-align: center;
+  border-radius:12px;
+}
+
+.btn:hover{
+  background-color:hsl(158, 36%, 17%);
+}
+.attribution {
+   font-size: 0.6875rem;
+   text-align: center;
+}
+
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
